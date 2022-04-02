@@ -1,0 +1,21 @@
+{
+  "parserOptions":{
+    "ecmaVersion":12
+  },
+  /* Para analisis y formateo del codigo */
+  "extends":["eslint: recommended", "prettier"],
+  "env":{
+    "es2021":true,
+    "node": true,
+    "jest":true
+  },
+  "rules":{
+    "no-console": "warn",
+    //* ES6
+    "arrow-spacing": {"before": true, "after": true },
+    "no-confusing-arrow": "error",
+    "no-duplicate-imports": "error",
+    "no-var": "off",
+    "prefer-const": "error"
+  }
+}
