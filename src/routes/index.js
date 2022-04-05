@@ -8,6 +8,7 @@ function rouerApi(my_app){
   my_app.use('/api/v1', router);
   /* Endpoint estatico: http://localhost:4000/api/v1/departaments */
   router.use('/departaments', departamentsRouter);
+  /* Endpoint estatico: http://localhost:4000/api/v1/superheroes */
   router.use('/superheroes', superheroRouter);
 }
 
